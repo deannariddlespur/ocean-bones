@@ -1,25 +1,6 @@
 
 
 
-# Prep your codebase
-
-* add requirements.txt file
-
-* create local_settings.py
-
-* add production database and static settings to settings.py (use example from my repo, you'll only have to change your database password later)
-
-* change the django_class folders to be named django_project (two folders)
-
-* edit settings.py and change django_class to django_project (all instances)
-
-* edit wsgi.py and change django_class to django_project (all instances)
-
-* dump auth.user into soccer/fixtures/initial_data.json to preserve your admin account. Update "soccer" to be your app name. You'll also have to create the fixtures folder.
-
-$ ./manage.py dumpdata auth.user > soccer/fixtures/initial_data.json
-
-
 # Create Digital Ocean Account
 
 * add your local ssh key
